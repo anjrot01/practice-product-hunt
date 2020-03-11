@@ -1,30 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# Aplicación Práctica simulando las acciones del famoso sitio Product Hunt
 
-## Getting Started
+Aplicación SSR realizada con React & Nextjs, React Hooks, Styled Components y con Serverless en Firebase.
 
-First, run the development server:
+- Para ver la app funcionando ir a `https://product-hunt-562bb.firebaseapp.com/`
+- Si quieres probar la app localmente debes crear una app en firebase y en la carpeta `/firebase/config_firebase.js` colocar el SDK snippet que Firebase entrega, luego cambiarle el nombre de ese archivo a `config.js` y listo.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- `$ npm run dev` para correr el app en local
+- `$ npm run build && npm run export` para construir un build si se le quire hacer el deploy a un hosting.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Saludos
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Antonio Rodríguez
+Full Stack Developer
